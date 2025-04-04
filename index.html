@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josep Heras</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img height="50" width="50" src="img/josep_p.jpg" alt="Foto Josep" />
+          <div class="logotype"><strong>Josep Heras</strong></div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiència</a></li>
+          <li><a href="#skills">Habilitats</a></li>
+          <li><a href="#contact">Contacte</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, soc <br />Josep Heras</h1>
+          <p class="profile-details">
+            Soc un apassionat per la informàtica, tant en l'apartat d'ofimàtica
+            com el desenvolupament web, prova d'això és aquesta pàgina. També
+            m'agrada el disseny, la fotografia i la pràctica de l'esport
+          </p>
+          <a class="profile-btn" href="pfd/cv set 24.pdf" download
+            >Descarregar cv</a
+          >
+        </div>
+        <span class="profile-img-section">
+          <img class="profile-img" src="img/josep_m.jpg" alt="Foto Josep" />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiència</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2019-Actualitat</div>
+            <div class="experience-company">Nedapool, S. L.</div>
+            <div class="experience-position">Responsable botiga</div>
+            <div class="experience-description">
+              Supervisar tot el procés de venda de la botiga i gestió del
+              magatzem, seguiment de clients particulars i professionals,
+              control de personal, gestió de reclamacions, impagats dels
+              clients...
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2005-2014</div>
+            <div class="experience-company">INTERFREN, S. A.</div>
+            <div class="experience-position">Responsable vehicle ocasió</div>
+            <div class="experience-description">
+              Taxació de vehicle usat, control d'estoc i moviment entre
+              exposicions, control i seguiment del procés recondicionament de
+              mecànica, pintura i neteja, organització de Fires, visita d'agents
+              de la marca i tallers mecànics en general.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">1987-1997</div>
+            <div class="experience-company">AUTOMÓVILES FIGUERAS, S. A.</div>
+            <div class="experience-position">
+              Auxiliar administratiu departament vendes
+            </div>
+            <div class="experience-description">
+              Control estocs tant de cotxe nou com usat, matriculació de cotxe
+              nou, transferència de cotxe usat, control i seguiment de
+              financiacions, control de caixa,
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilitats</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">Office</li>
+          <li class="skills-skill">Inkscape</li>
+          <li class="skills-skill">GIMP</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">Linux</li>
+          <li class="skills-skill">Bootstrap</li>
+        </ul>
+      </section>
+    </div>
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contacte</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Adreça:</p>
+            <p class="contact-text">Avinyonet de Puigventós, Girona</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">E-correu:</p>
+            <p class="contact-text">josepherasalsina@gmail.com</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-text">
+              Deixeu el vostre missatge i us contestaré en breu.
+            </p>
+          </div>
+        </div>
+        <form class="contact-form" name="contact" netlify>
+          <div class="contact-form-group">
+            <label for="name">Nom</label>
+            <input required type="text" name="name" id="name" />
+          </div>
+          <div class="contact-form-group">
+            <label for="email">E-correu</label>
+            <input required type="email" name="email" id="email" />
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Missatge</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+          <ul class="social-list">
+            <li>
+              <a href="https://twitter.com/ymulenll">
+                <img src="img/social/twitter.svg" alt="twitter profile" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/yoelvism" class="social-link"
+                ><img src="img/social/youtube.svg" alt="youtube profile"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/ymulenll" class="social-link">
+                <img src="img/social/github.svg" alt="github profile" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/yoelvismulen"
+                class="social-link"
+              >
+                <img src="img/social/linkedin.svg" alt="linkedin profile" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </body>
+</html>

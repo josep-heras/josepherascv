@@ -4,6 +4,7 @@
   font-size: 18px;
   border-radius: 14px;
   padding: 25px;
+
   display: grid;
   gap: 25px;
 }
@@ -55,10 +56,12 @@
 .contact-form-submit {
   width: 100%;
   height: 50px;
+
   background-color: var(--text-color);
   border-radius: 7px;
   color: var(--text-color-inverse);
   border: 1px solid var(--theme-color);
+
   cursor: pointer;
 }
 
@@ -68,6 +71,7 @@
 
 .social-list {
   list-style: none;
+
   display: flex;
   gap: 25px;
   justify-content: center;
@@ -85,8 +89,10 @@
   .contact {
     font-size: 20px;
     padding: 70px;
+
     max-width: 980px;
     margin: 0 auto;
+
     box-sizing: border-box;
   }
 
